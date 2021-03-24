@@ -9,8 +9,9 @@ public class Demo_for_pi {
     public static void main(String[] args) {
         double pi=0;
         int flag=1;
-        for(double i=1;i<=1000000;i=i+2){   //这里的i用double类型，结果为3.14；如果用int类型，结果为4.0？？？？
-            pi=pi+flag*(1/i);
+
+        for(int i=1;i<=1000000;i=i+2){
+            pi=pi+flag*(1.0/i);
             flag=-flag;
             System.out.println("i:"+i);
             System.out.println("flag:"+flag);
