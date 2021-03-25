@@ -20,6 +20,9 @@ public class Demo_descSortArrays {
                     flag = false;
                 }
             }
+            if (flag) {
+                break;
+            }
 
         }
 
