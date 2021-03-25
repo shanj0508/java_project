@@ -1,6 +1,6 @@
 package TestPackage;
 
-public class Demo_doWhile {
+public class DemoDoWhile {
     public static void main(String[] args) {
         int sum = 0;
         int n = 20;

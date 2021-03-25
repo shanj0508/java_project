@@ -1,6 +1,6 @@
 package TestPackage;
 
-public class Demo_objectExtends {
+public class DemoObjectExtends {
     public static void main(String[] args) {
         Person3 ming = new Person3();
         ming.setName("小明");

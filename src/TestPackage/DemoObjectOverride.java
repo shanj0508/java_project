@@ -5,7 +5,7 @@ package TestPackage;
  */
 
 
-public class Demo_objectOverride {
+public class DemoObjectOverride {
 
     public static double totalTax(Income... incomes) {
         double total = 0;

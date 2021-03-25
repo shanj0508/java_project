@@ -6,7 +6,7 @@ import java.util.Scanner;
 * 然后输出成绩提高的百分比，保留两位小数位（例如，21.75%）。
 * */
 
-public class Demo_int {
+public class DemoInt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // 创建Scanner对象
         System.out.print("请输入上次考试成绩： "); // 打印提示

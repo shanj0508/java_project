@@ -5,7 +5,7 @@ import java.util.Scanner;
 使用switch实现一个简单的石头、剪子、布游戏。
 * */
 
-public class Demo_switch {
+public class DemoSwitch {
     public static void main(String[] args) {
         //系统随机数
         int sys_option = (int)(1+Math.random()*(3-1+1));

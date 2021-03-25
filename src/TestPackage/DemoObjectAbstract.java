@@ -3,7 +3,7 @@ package TestPackage;
 /**
  * 用抽象类给一个有工资收入和稿费收入的小伙伴算税。
  */
-public class Demo_objectAbstract {
+public class DemoObjectAbstract {
 
     public static double totalTax(IncomeAbstract... incomes) {
         double total = 0;

@@ -3,7 +3,7 @@ package TestPackage;
 /*
  * 使用二维数组可以表示一组学生的各科成绩，请计算所有学生的平均分：
  * */
-public class Demo_TwoDimensionalArrays {
+public class DemoTwoDimensionalArrays {
     public static void main(String[] args) {
         int[][] scores = {
                 {82, 90, 91},

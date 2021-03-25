@@ -2,7 +2,7 @@ package TestPackage;
 
 import java.util.Arrays;
 
-public class Demo_sortArrays {
+public class DemoSortArrays {
     public static void main(String[] args){
         int[] ns = { 12, 18, 28, 65, 89, 73 };
         //排序前：

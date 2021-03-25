@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*
 请按倒序遍历数组并打印每个元素：
 * */
-public class Demo_printArrays {
+public class DemoPrintArrays {
     public static void main(String[] args){
         int[] ns={ 1, 4, 9, 16, 25};
         System.out.println("原数组为：");

@@ -5,7 +5,7 @@ package TestPackage;
 *
 * 请利用for循环计算π
 * */
-public class Demo_for_pi {
+public class DemoForPi {
     public static void main(String[] args) {
         double pi=0;
         int flag=1;

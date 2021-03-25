@@ -7,7 +7,7 @@ package TestPackage;
     longitude: 经度，double类型
   实例化几个City并赋值，然后打印。
 * */
-public class Demo_objectCity {
+public class DemoObjectCity {
     public static void main(String[] args) {
         City lf = new City();
         lf.setName("LinFen");

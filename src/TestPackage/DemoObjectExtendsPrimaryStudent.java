@@ -1,6 +1,6 @@
 package TestPackage;
 
-public class Demo_objectExtendsPrimaryStudent {
+public class DemoObjectExtendsPrimaryStudent {
     public static void main(String[] args) {
         Person4 p = new Person4("小明", 12);
         Student1 s = new Student1("小红", 20, 99);

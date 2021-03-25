@@ -1,6 +1,6 @@
 package TestPackage;
 
-public class Demo_objectPersonConstruction {
+public class DemoObjectPersonConstruction {
     public static void main(String[] args) {
         Person1 ming = new Person1("小明", 18);
         System.out.println("姓名：" + ming.getName());

@@ -1,6 +1,6 @@
 package TestPackage;
 
-public class Demo_while {
+public class DemoWhile {
     public static void main(String[] args) {
         int m = 20;
         int n=100;

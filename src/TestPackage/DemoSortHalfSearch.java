@@ -1,6 +1,6 @@
 package TestPackage;
 
-public class Demo_sortHalfSearch {
+public class DemoSortHalfSearch {
     public static void main(String[] args) {
         int[] arr = {1, 3, 10, 12, 19, 27, 33, 40, 52, 68, 79, 88, 91, 100};
         //递归实现

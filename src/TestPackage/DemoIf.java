@@ -12,7 +12,7 @@ import java.util.Scanner;
         • 非常肥胖：高于32
 */
 
-public class Demo_if {
+public class DemoIf {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // 创建Scanner对象
