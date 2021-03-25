@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 public class DemoObjectExtends {
     public static void main(String[] args) {

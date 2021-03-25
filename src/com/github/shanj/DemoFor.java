@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 /*
  *给定一个数组，请用for循环倒序输出每一个元素

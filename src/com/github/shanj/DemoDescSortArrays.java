@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 /*
 * 请定义一个City类，该class具有如下字段:

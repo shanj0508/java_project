@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 public class DemoObjectOverload {
 

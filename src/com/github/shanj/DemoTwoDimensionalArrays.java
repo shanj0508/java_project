@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 /*
  * 使用二维数组可以表示一组学生的各科成绩，请计算所有学生的平均分：

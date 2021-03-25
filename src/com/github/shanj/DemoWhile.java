@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 public class DemoWhile {
     public static void main(String[] args) {

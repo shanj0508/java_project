@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 /*
 * 圆周率π可以使用公式计算：

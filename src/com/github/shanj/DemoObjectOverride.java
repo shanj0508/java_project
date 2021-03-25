@@ -1,40 +1,45 @@
-package TestPackage;
+package com.github.shanj;
 
 /**
- * 用抽象类给一个有工资收入和稿费收入的小伙伴算税。
+ * 给一个有工资收入和稿费收入的小伙伴算税。
  */
-public class DemoObjectAbstract {
 
-    public static double totalTax(IncomeAbstract... incomes) {
+
+public class DemoObjectOverride {
+
+    public static double totalTax(Income... incomes) {
         double total = 0;
-        for (IncomeAbstract income : incomes) {
+        for (Income income : incomes) {
             total = total + income.getTax();
         }
         return total;
     }
 
     public static void main(String[] args) {
-        IncomeAbstract[] incomes = new IncomeAbstract[]{
-                new SalaryAbstract(3000),
-                new ContributionFeeAbstract(7500)
+        Income[] incomes = new Income[]{
+                new Income(3000),
+                new Salary(7500),
+                new ContributionFee(10500)
         };
         System.out.println(totalTax(incomes));
     }
 }
 
-abstract class IncomeAbstract {
+class Income {
     protected double income;
 
-    public IncomeAbstract(double income) {
+    public Income(double income) {
         this.income = income;
     }
 
-    public abstract double getTax();
+    public double getTax() {
+        return income * 0.1; // 税率10%
+    }
 }
 
-class SalaryAbstract extends IncomeAbstract {
+class Salary extends Income {
 
-    public SalaryAbstract(double income) {
+    public Salary(double income) {
         super(income);
     }
 
@@ -48,9 +53,9 @@ class SalaryAbstract extends IncomeAbstract {
 }
 
 
-class ContributionFeeAbstract extends IncomeAbstract {
+class ContributionFee extends Income {
     //稿费
-    public ContributionFeeAbstract(double income) {
+    public ContributionFee(double income) {
         super(income);
     }
 

@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 /*
 利用for each循环对数组每个元素求和

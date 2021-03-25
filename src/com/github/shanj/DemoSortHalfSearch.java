@@ -1,4 +1,4 @@
-package TestPackage;
+package com.github.shanj;
 
 public class DemoSortHalfSearch {
     public static void main(String[] args) {
