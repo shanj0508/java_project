@@ -23,8 +23,7 @@ public class Demo_sortArrays {
                 break;
             }
         }
-//        Arrays.sort(ns);
-        // 降序排序??
+       // Arrays.sort(ns);
         //排序后：
         System.out.println(Arrays.toString(ns));
     }
