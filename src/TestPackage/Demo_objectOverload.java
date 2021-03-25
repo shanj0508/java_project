@@ -1,16 +1,6 @@
 package TestPackage;
 
 public class Demo_objectOverload {
-    //TODO:这个结果是为啥？
-//    public static void main(String[] args) {
-//        String s = "Test string";
-//        int n1 = s.indexOf('t');
-//        int n2 = s.indexOf("st");
-//        int n3 = s.indexOf("st", 4);
-//        System.out.println(n1);
-//        System.out.println(n2);
-//        System.out.println(n3);
-//    }
 
     public static void main(String[] args) {
         Person2 ming = new Person2();
