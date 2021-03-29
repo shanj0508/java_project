@@ -1,6 +1,6 @@
 package com.github.shanj.objextprimstudent;
 
-class PrimaryStudent extends Student1 {
+class PrimaryStudent extends Student {
     protected int grade;
 
     public PrimaryStudent(String name, int age, int score, int grade) {

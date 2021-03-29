@@ -1,9 +1,9 @@
 package com.github.shanj.objextprimstudent;
 
-class Student1 extends Person {
+class Student extends Person {
     protected int score;
 
-    public Student1(String name, int age, int score) {
+    public Student(String name, int age, int score) {
         super(name, age);
         this.score = score;
 

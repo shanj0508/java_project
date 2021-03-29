@@ -4,11 +4,11 @@ class Person {
     private String name;
     private int age;
 
-    public Person() {
+    public Person1() {
     }
 
     //构造函数
-    public Person(String name, int age) {
+    public Person1(String name, int age) {
         this.name = name;
         this.age = age;
     }
