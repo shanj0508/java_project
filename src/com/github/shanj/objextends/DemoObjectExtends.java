@@ -2,7 +2,7 @@ package com.github.shanj.objextends;
 
 public class DemoObjectExtends {
     public static void main(String[] args) {
-        Person3 ming = new Person3();
+        Person ming = new Person();
         ming.setName("小明");
         ming.setAge(18);
         System.out.println("ming.name:" + ming.getName() + "\nming.age:" + ming.getAge());

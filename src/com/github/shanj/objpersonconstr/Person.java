@@ -1,14 +1,14 @@
 package com.github.shanj.objpersonconstr;
 
-class Person1 {
+class Person {
     private String name;
     private int age;
 
-    public Person1() {
+    public Person() {
     }
 
     //构造函数
-    public Person1(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }

@@ -1,6 +1,6 @@
 package com.github.shanj.objoverload;
 
-class Person2 {
+class Person {
     private String name;
 
     public String getName() {

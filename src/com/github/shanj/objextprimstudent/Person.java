@@ -1,10 +1,10 @@
 package com.github.shanj.objextprimstudent;
 
-class Person4 {
+class Person {
     protected String name;
     protected int age;
 
-    public Person4(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }

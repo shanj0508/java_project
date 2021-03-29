@@ -1,8 +1,8 @@
 package com.github.shanj.objextends;
 
-class Person3 {
-    private String name;
-    private int age;
+class Person {
+    protected String name;
+    protected int age;
 
     public void setName(String name) {
         this.name = name;
