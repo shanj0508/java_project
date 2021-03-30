@@ -1,7 +1,7 @@
 package com.github.shanj.incomabs;
 
 
-class ContributionFeeAbstract extends IncomeAbstract {
+class ContributionFeeAbstract extends Income {
     //稿费
     public ContributionFeeAbstract(double income) {
         super(income);

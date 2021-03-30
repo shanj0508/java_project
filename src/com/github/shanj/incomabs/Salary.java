@@ -1,8 +1,8 @@
 package com.github.shanj.incomabs;
 
-class SalaryAbstract extends IncomeAbstract {
+class Salary extends Income {
 
-    public SalaryAbstract(double income) {
+    public Salary(double income) {
         super(income);
     }
 
