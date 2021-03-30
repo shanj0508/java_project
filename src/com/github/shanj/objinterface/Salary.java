@@ -4,7 +4,7 @@ class Salary implements Income {
     protected double income;
 
     public Salary(double income) {
-        this.income=income;
+      this.income=income;
     }
 
     @Override
