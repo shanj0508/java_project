@@ -5,4 +5,19 @@ package com.github.shanj.objinterface;
  */
 //TODO
 public class ObjectInterface {
+    public static double totalTax(Income... incomes) {
+        double total = 0;
+        for (Income income : incomes) {
+            total = total + income.getTax();
+        }
+        return total;
+    }
+
+    public static void main(String[] args) {
+        Income[] incomes = new Income[]{
+                new Salary(3000),
+                new ContributionFee(7500)
+        };
+        System.out.println(totalTax(incomes));
+    }
 }
